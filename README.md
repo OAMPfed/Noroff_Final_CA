@@ -1,3 +1,19 @@
+!IMPORTANT
+
+Access beyond the login page is reliant on the Strapi Backend, of which the repository has been shared in the PDF submission.
+
+To start the project:
+1. CD into the Strapi Backend and run 'npm run start'.
+2. CD into the React Frontend and run 'npm run start.
+
+Login identifiers are located in the Strapi readme aswell as a <p> tag on the login page itself.
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
