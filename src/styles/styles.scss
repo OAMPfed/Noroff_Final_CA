@@ -1,0 +1,28 @@
+//other
+@import 'app';
+@import 'fonts';
+
+//pages
+@import 'PagesHomepages';
+@import 'PagesCardSpecific';
+@import 'PagesAbout';
+@import 'PagesContact';
+@import 'PagesLogin';
+
+//components
+@import 'ComponentCard';
+@import 'ComponentNavbar';
+@import 'ComponentAccordion';
+
+
+
+
+
+//Reset styles.
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Da 2', cursive;
+    color: white;
+}

@@ -1,0 +1,62 @@
+.form{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    label{
+        font-size: 19px;
+        height: 30px;
+        background-color: #e67e22;
+        width: 200px;
+        text-align: center;
+        font-family: 'Baloo Da 2', cursive;
+        p{
+            color: white;
+        }
+    }
+    input[type=text]{
+        height: 30px;
+        font-size: 18px;
+        background-color: white;
+        color: #e67e22;
+        width: 190px;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: 'Baloo Da 2', cursive;
+        border: none;
+        margin-bottom: 15px;
+    }
+    input[type=password]{
+        height: 30px;
+        font-size: 18px;
+        background-color: white;
+        color: #e67e22;
+        width: 190px;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: 'Baloo Da 2', cursive;
+        border: none;
+        margin-bottom: 15px;
+    }
+    input[type=submit]{
+        width: 200px;
+        border-radius: 2px;
+        background-color: #e67e22;
+        color: black;
+        height: 30px;
+        border: none;
+        font-family: 'Baloo Da 2', cursive;
+        font-size: 20px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    p{
+        color: red;
+    }
+
+}

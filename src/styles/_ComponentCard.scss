@@ -1,0 +1,37 @@
+.card{
+    height: 350px;
+    margin: 20px;
+    position: relative;
+    &__name{
+        font-size: 20px;
+        width: 180px;
+        line-height: 1;
+        text-align: center;
+        color: white;
+    }
+    &__image{
+        width: 180px;
+        height: 250px;
+        border-radius: 8px;
+    }
+    &__link{
+        color: white;
+        position: absolute;
+        font-weight: bold;
+        bottom: 0;
+        transform: translateY(-10px);
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 5px;
+        width: 100px;
+        background-color: #e67e22;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-10px) scale(1.1);
+            text-decoration: underline;
+        }
+    }
+}

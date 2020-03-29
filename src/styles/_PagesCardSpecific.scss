@@ -1,0 +1,47 @@
+.specific{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    &__image{
+        width: 180px;
+        height: 250px;
+        margin-right: 10px;
+        margin-top: 30px;
+        border-radius: 8px;
+    }
+    &__info{
+        width: 400px;
+        margin-top: 30px;
+        color: white;
+        &--name{
+            font-weight: bold;
+            font-size: 30px;
+            text-decoration: underline;
+        }
+        &--text{
+            margin-top: 5px;
+            span{
+                font-weight: bold;
+                text-decoration: underline;
+            }
+        }
+        &--rarity{
+            margin-top: 5px;
+            span{
+                font-weight: bold;
+                text-decoration: underline;
+            }
+        }
+        &--colors{
+            margin-top: 5px;
+            span{
+                font-weight: bold;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+    

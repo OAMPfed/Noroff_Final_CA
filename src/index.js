@@ -1,13 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
 import App from './App';
+import './styles/styles.scss';
+import Homepage from './pages/Homepage';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import CardSpecific from './pages/CardSpecific';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <App>
+      <Switch>
+        <Route path="/" exact component={Homepage} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/card/:id" component={CardSpecific} />
+      </Switch>
+    </App>
+  </Router>,
   document.getElementById('root')
 );
 
